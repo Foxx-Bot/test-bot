@@ -51,10 +51,20 @@
     }
 
     //Change the bots default settings and make sure they are loaded on launch
-
-    localStorage.setItem("basicBotsettings", JSON.stringify({
+var basicBot = {
+        version: "1.0.0",
+        status: false,
+        name: "Free-Run",
+        loggedInID: null,
+        scriptLink: "https://rawgit.com/Yemasthui/basicBot/master/basicBot.js",
+        cmdLink: "http://git.io/245Ppg",
+        chatLink: "https://rawgit.com/Foxx-Bot/bot/master/lang/czech.json",
+        chat: null,
+        loadChat: loadChat,
+        retrieveSettings: retrieveSettings,
+    setting: {
         botName: "Free-Run",
-        language: "english",
+        language: "czech",
         chatLink: "https://rawgit.com/Foxx-Bot/bot/master/lang/czech.json",
         maximumAfk: 120,
         afkRemoval: true,
@@ -102,7 +112,7 @@
             NSFW: "https://rawgit.com/Yemasthui/basicBot-customization/master/blacklists/ExampleNSFWlist.json",
             OP: "https://rawgit.com/Yemasthui/basicBot-customization/master/blacklists/ExampleOPlist.json"
         }
-    }));
+    }}));
 
     //Start the bot and extend it when it has loaded.
     $.getScript('https://rawgit.com/Yemasthui/basicBot/master/basicBot.js', extend);
