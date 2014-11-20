@@ -55,7 +55,7 @@
     localStorage.setItem("basicBotsettings", JSON.stringify({
         botName: "Free-Run",
         language: "english",
-        chatLink: "https://rawgit.com/Yemasthui/basicBot/master/lang/en.json",
+        chatLink: "https://rawgit.com/Foxx-Bot/bot/master/lang/czech.json",
         maximumAfk: 120,
         afkRemoval: true,
         maximumDc: 60,
