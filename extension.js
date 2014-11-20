@@ -56,7 +56,6 @@ var basicBot = {
         status: false,
         name: "Free-Run",
         loggedInID: null,
-        scriptLink: "https://rawgit.com/Yemasthui/basicBot/master/basicBot.js",
         cmdLink: "http://git.io/245Ppg",
         chatLink: "https://rawgit.com/Foxx-Bot/bot/master/lang/czech.json",
         chat: null,
