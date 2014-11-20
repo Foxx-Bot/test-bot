@@ -54,8 +54,8 @@
 
     localStorage.setItem("basicBotsettings", JSON.stringify({
         botName: "Free-Run",
-        language: "czech",
-        chatLink: "https://rawgit.com/Foxx-Bot/bot/master/lang/czech.json",
+        language: "english",
+        chatLink: "https://rawgit.com/Yemasthui/basicBot/master/lang/en.json",
         maximumAfk: 120,
         afkRemoval: true,
         maximumDc: 60,
@@ -105,6 +105,6 @@
     }));
 
     //Start the bot and extend it when it has loaded.
-    $.getScript('https://rawgit.com/Foxx-Bot/bot/master/basicBot.js', extend);
+    $.getScript('https://rawgit.com/Yemasthui/basicBot/master/basicBot.js', extend);
 
 }).call(this);
